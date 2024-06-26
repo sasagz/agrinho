@@ -60,6 +60,7 @@ main {
     flex: 20 1 500px;
     flex-wrap: wrap;
     overflow: auto;
+    height: calc(100vh - 224px);
 }
 main section {
     width: 100%;
