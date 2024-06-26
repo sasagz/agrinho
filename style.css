@@ -101,7 +101,7 @@ a {
     
     #openMenu,
     #closeMenu {
-        display: block
+        display: block;
     }
 
     #openMenu {
