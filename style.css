@@ -57,6 +57,7 @@ nav a{
 }
  
 main {
+    order: 1;
     flex: 20 1 500px;
     flex-wrap: wrap;
     overflow: auto;
@@ -71,10 +72,12 @@ main section {
 
 aside {
     flex:  1 1 200px;
+    order: 2;
 }
 
 footer {
     flex: 1 1 100px;
+    order: 3;
 }
 
 a {
