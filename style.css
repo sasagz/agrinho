@@ -57,7 +57,7 @@ nav a{
  
 main {
     order: 1;
-    flex: 20 1 1000px;
+    flex: 20 1 2000px;
     flex-wrap: wrap;
     overflow: auto;
     height: calc(100vh - 224px);
@@ -70,7 +70,7 @@ main section {
 }
 
 aside {
-    flex:  1 1 2000px;
+    flex:  1 1 1000px;
     order: 2;
 }
 a {
