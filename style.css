@@ -3,6 +3,8 @@
 :root{
     --cor-header: #004d29;
     --cor-letra: #c3d6b8;
+    --cor-footer: #0a6b48;
+    --cor-titulo: #2a4b1f;
 }
 
 * {
@@ -16,12 +18,12 @@ body {
     flex-wrap: wrap;
     margin: 3px;
     flex: 1 1 100vw;
-    background: #a1a1a1;
+    background: whitesmoke;
 }
 
 main,
 aside{
-    background-color: #a1a1a1;
+    background-color: whitesmoke;
     display: flex;
     margin: 3px;
 }
@@ -66,7 +68,20 @@ main section {
     width: 100%;
     height: 2000px;
     margin:  10px;
-    background: linear-gradient(#9a9a9a, #5a5a5a, #1a1a1a);
+    background: whitesmoke;
+    h1{
+        color: var(--cor-titulo);
+        text-align: center;
+    }h1{
+        color: var(--cor-titulo);
+        text-align: center;
+    }h1{
+        color: var(--cor-titulo);
+        text-align: center;
+    }h1{
+        color: var(--cor-titulo);
+        text-align: center;
+    }
 }
 
 aside {
@@ -80,8 +95,8 @@ a {
 
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--cor-footer);
+    color: var(--cor-letra);
     padding: 20px 0;
     text-align: center;
     flex: 1 1 1000px;
@@ -139,12 +154,6 @@ footer {
     margin-top: 20px;
     font-size: 14px;
 }
-
-
-
-
-
-
 
 
 
