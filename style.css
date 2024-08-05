@@ -12,7 +12,7 @@
 body {
     display: flex;
     flex-wrap: wrap;
-    margin: 3px;
+    margin: auto;
     flex: 1 1 100vw;
     background: var(--cor-main);
     font-family: var(--font-padrao);
@@ -20,7 +20,7 @@ body {
 
 aside{
     background-color: var(--cor-aside);
-    margin: 3px;
+    margin: auto;
     color: var(--cor-fundo);
     text-align: center;
     h1{
@@ -31,6 +31,7 @@ aside{
     button{
         font-size: 20px;
         border: var(--cor-fundo) solid 1px;
+        border-radius: 10px;
         margin: 4px;
         padding: 8px;
         background-color: var(--cor-aside);
@@ -120,10 +121,10 @@ footer {
     padding: 20px;
 }
 .footer-contato h4 {
-    color: #fff;
+    color: var(--cor-fundo);
 }
 .footer-contato p {
-    color: #fff;
+    color: var(--cor-fundo);
 }
 
 
@@ -138,7 +139,7 @@ footer {
     margin: 5px 0;
 }
 .footer-section ul li a {
-    color: #fff;
+    color: var(--cor-fundo);
     text-decoration: none;
 }
 .footer-section ul li a:hover {
@@ -146,12 +147,12 @@ footer {
 }
 .footer-socials a {
     margin: 0 10px;
-    color: #fff;
+    color: var(--cor-fundo);
     text-decoration: none;
     font-size: 20px;
 }
 .footer-socials a:hover {
-    color: #ddd;
+    color: var(--cor-fundo);
 }
 .footer-copyright {
     margin-top: 20px;
